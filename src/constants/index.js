@@ -15,9 +15,9 @@ import {
     git,
     figma,
     docker,
-    meta,
     starbucks,
     tesla,
+    meta,
     shopify,
     carrent,
     jobit,
@@ -54,7 +54,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Digital Marketing",
       icon: creator,
     },
   ];
@@ -116,29 +116,29 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Full Stack Developer",
+      company_name: "Sense Techno Solutions",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "March 2021 - Present",
       points: [
-        "Developing and maintaining android applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Create user-friendly interfaces for automation systems that enhance user experience.",
+        "Optimize code and databases to maximize performance and efficiency.",
+        "Implement stringent security measures to protect sensitive control data.",
+        "Stay updated with emerging technologies to drive innovation in automation solutions.",
       ],
     },
     {
-      title: "Android Developer",
-      company_name: "Google",
+      title: "Mobile Developer",
+      company_name: "ARTBOXAAYU",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jan 2018 - Feb 2021",
       points: [
-        "Developing and maintaining web applications using Flutter and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Develop and maintain mobile applications to showcase and sell Artboxaayu's extensive line of trendy handicraft products.",
+        "Enhance user experience through intuitive navigation and responsive design.",
+        "Implement secure payment gateways and seamless checkout processes for customer convenience.",
+        "Continuously update and optimize mobile apps to reflect the latest trends in the handicraft industry.",
       ],
     },
     {
@@ -148,23 +148,10 @@ import {
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Customized and developed multiple e-commerce websites on the Shopify platform, ensuring seamless online shopping experiences for clients and their customers.",
+        "Implemented responsive design and user-friendly interfaces to enhance the websites' accessibility across various devices.",
+        "Integrated third-party apps and plugins to add features like payment gateways, inventory management, and customer analytics.",
+        "Provided ongoing maintenance and support to ensure the websites functioned smoothly and efficiently.",
       ],
     },
   ];
@@ -172,26 +159,26 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
+        "I thought it was impossible to make a website as beautiful as our product, but Prashant proved me wrong.",
       name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
+      designation: "CoO",
+      company: "Pixelbay",
       image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+        "I've never met a web developer who truly cares about their clients' success like Prashant does.",
+      name: "Rishab Bajpai",
+      designation: "COO",
+      company: "Artboxaayu",
+      image: meta
+    },
+    {
+      testimonial:
+        "After Prashant optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
+      designation: "Client",
+      company: "E-commerce",
       image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
   ];
@@ -200,7 +187,7 @@ import {
     {
       name: "ARTBOXAAYU",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "India's one-stop online shopping app for Handicraft.",
       tags: [
         {
           name: "react",
@@ -240,9 +227,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "E-Commerce",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Desigend multiple e-commerce website using shopify.",
       tags: [
         {
           name: "nextjs",

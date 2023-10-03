@@ -74,8 +74,17 @@ const Contact = () => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <br />
+        <br />
+        <address className="">
+            Email: pnishad72720@gmail.com
+          <br /><br />
+          <p>
+            Phone: +919936214955
+          </p>
+        </address>
 
-        <form
+        {/* <form
           ref={formRef}
           onSubmit={handleSubmit}
           className='mt-12 flex flex-col gap-8'
@@ -120,7 +129,7 @@ const Contact = () => {
           >
             {loading ? "Sending..." : "Send"}
           </button>
-        </form>
+        </form> */}
       </motion.div>
 
       <motion.div
